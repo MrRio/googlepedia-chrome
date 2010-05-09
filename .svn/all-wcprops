@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/83/branches/chrome
+END
+test.htm
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/69/branches/chrome/test.htm
+END
+callback.js
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/83/branches/chrome/callback.js
+END
+proxy.php
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/83/branches/chrome/proxy.php
+END
+googlepedia.js
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/82/branches/chrome/googlepedia.js
+END
+manifest.json
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/83/branches/chrome/manifest.json
+END
