@@ -184,7 +184,7 @@ if(getValue('hidden', '0')=='1' || (start != '' && start != '0')) {
 	addGlobalStyle('#showGooglepediaBox { display:block;font-size:13px !important}');
 }
 
-addGlobalStyle('#hideLink { float: right; }#center_col {margin-right: 0px}#cnt {max-width: 100000px !important; padding-bottom:20px}#brs {float: left !important; clear: left !important;}#foot {clear:left}');
+addGlobalStyle('#hideLink { float: right; }#center_col {margin-right: 0px !important}#cnt {max-width: 100000px !important; padding-bottom:20px}#brs {float: left !important; clear: left !important;}#foot {clear:left}');
 addGlobalStyle('.shrunk { float: right; width: 50%; border-left: 3px solid #efefef; padding-left: 10px; margin-left: 10px; margin-bottom: 32px; }');
 addGlobalStyle('.expanded { float: none; width: 100%; border: 0; padding: 0; border-bottom: 3px solid #efefef; padding-bottom: 10px; margin-bottom: 30px;}');
 addGlobalStyle('#throbber, #networkError { vertical-align:middle; padding-right: 10px; }');
