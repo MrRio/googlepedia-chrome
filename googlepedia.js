@@ -190,6 +190,8 @@ addGlobalStyle('.expanded { float: none; width: 100%; border: 0; padding: 0; bor
 addGlobalStyle('#throbber, #networkError { vertical-align:middle; padding-right: 10px; }');
 addGlobalStyle('#navbar { text-align: left; width: 50%;	} hr { width: 45% !important; } ');
 
+addGlobalStyle('#resultStats { margin-left: 40px } #res { width: 40%; float: left; } ');
+
 
 addGlobalStyle('#bodyContent a.external, #bodyContent a[href^="gopher://"] {-moz-background-clip:border;-moz-background-inline-policy:continuous;-moz-background-origin:padding;background:transparent url(http://en.wikipedia.org/skins-1.5/monobook/external.png) no-repeat scroll right center;padding-right:13px;}');
 // Wikipedia CSS
@@ -211,6 +213,13 @@ var debugLink = '<a onclick="document.innerHTML = \'<text\'+\'area>\'+document.i
 var networkError = '<img id="networkError" src="'+Images.networkError+'" />' + getString('networkProblem');
 var results = document.getElementById('res');
 var url;
+
+// Check for Google instant and turn it off
+
+var on_message = document.getElementById('po-on-message');
+if(on_message.style.display != 'none') {
+	document.location.href = document.getElementById('po-off').href;
+}
 
 
 window.initWikibox = function () {

@@ -1,7 +1,7 @@
 {
 	"name": "Googlepedia",
-	"version": "0.7",
-	"description": "This is Googlepedia for Chrome!",
+	"version": "0.8",
+	"description": "This is Googlepedia for Chrome! It shows you Wikipedia articles alongside your Google search results.",
 	"background_page" : "background.html",
 	"permissions": ["http://*/*"],
 	"content_scripts": [{
